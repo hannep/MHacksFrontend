@@ -1,0 +1,70 @@
+body {
+    font-size: 16px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background: none;
+    background-color: rgb(228, 205, 190);
+}
+
+#primary-search {
+	width:600px;	/* TODO: use grid or something */
+}
+
+#login-button {
+	margin: 10px;
+}
+
+#red {
+    height: 1000px;   /* TODO: height must adjust to be at least height of screen */
+    background-color: rgb(245, 152, 152);
+    border-right: 1px solid #e6e6e6;
+}
+
+#blue {
+    height: 1000px;
+    background-color: rgb(152, 152, 245);
+}
+
+.hanging-indent {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+input {
+    background-color: rbg(240, 240, 240);
+}
+
+.text-column {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+#match-label {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+#checks-left {
+    float: left;                   
+    width: 50%;
+}
+
+#checks-right {
+    float: left;
+    width: 50%;
+}
+
+div#interests {
+    margin-bottom: 20px;
+}
+
+.item {
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    margin: 15px;
+}

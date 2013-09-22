@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SBU Events</title> <!-- TODO -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- test compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
+        <!-- Our extension of Bootstrap -->
+        <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap JavaScript is dependent upon JQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/html5shiv.js"></script>
+    <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Events @ SBU</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" id="primary-search" class="form-control" placeholder="Search Campus Events">
+            </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><button type="button" id="login-button" class="btn btn-default">Log in</button></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+        </nav>
+        
+        <div class="row">
+            <div id="red" class="col-md-4 text-column">
+                <p>Welcome to Events @ SBU!  Our goal is to connect you with events happening on campus. There's a lot going on here, but it's often hard to find out what. We are trying to make that process easier.</p>  
+                <p>You can search events above, but the real magic happens when you tell us some information about yourself. We will use this information to give you customized event recommendations.</p>
+                <h2>Create an Account</h2>
+                <form role="form">
+                <div class="form-group">
+                    <label>Please enter your full name:<input type="text" class="form-control hanging-indent" placeholder="Full Name"></input></label>  
+                </div>    
+                <div class="form-group">
+                    <label>We could also use your email:<input type="email" class="form-control hanging-indent" placeholder="Email Address"></input></label>  
+                </div>    
+                <div class="form-group">
+                    <label>You'll need a password:<input type="password" class="form-control hanging-indent" placeholder="Password"></input></label>  
+                </div>    
+                <p>Click 'Create Account', we'll ask you a few quick questions to give you the most relevant results, 
+    and then send you on your way.</p>
+                <button type="submit" class="btn btn-default hanging-indent">Create Account</button>
+                </form>
+            </div> 
+            <div id="blue" class="col-md-8">
+            </div>
+        </div>
+
+  </body>
+</html>

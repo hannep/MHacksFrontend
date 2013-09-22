@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SBU Events</title> <!-- TODO -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- test compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
+    <!-- Our extension of Bootstrap -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap JavaScript is dependent upon JQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+ 
+    <script src="bower_components/masonry/masonry.js"></script>
+ 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/html5shiv.js"></script>
+    <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    
+    <script>
+    $('container').masonry({
+        columnWidth: 900,
+        itemSelector: '.item'
+    });
+    </script>
+  </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Events @ SBU</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" id="primary-search" class="form-control" placeholder="Search Campus Events">
+            </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><button type="button" id="login-button" class="btn btn-default">Log in</button></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+        </nav>
+        
+        <div id="container" class="js-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </body>
+</html>
+
+
